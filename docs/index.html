@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="DOMUM Tools Beta: automatización topográfica y urbana para AutoCAD 2020."
+    />
+    <meta property="og:title" content="DOMUM Tools Beta" />
+    <meta
+      property="og:description"
+      content="Del polígono al plano, con precisión."
+    />
+    <meta property="og:image" content="domum-social-card.png" />
+    <title>DOMUM Tools Beta</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="#inicio">
+        <i aria-hidden="true"></i>
+        <span><b>DOMUM</b><small>TOOLS</small></span>
+      </a>
+      <nav>
+        <a href="#capacidades">Capacidades</a>
+        <a href="#instalacion">Instalación</a>
+        <a class="repo-link" href="#">Código de distribución</a>
+      </nav>
+    </header>
+    <main id="inicio">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><i></i> BETA OFICIAL · AUTOCAD 2020</p>
+          <h1>Del polígono al plano, <em>con precisión.</em></h1>
+          <p class="lead">
+            Automatización profesional para topografía y urbanismo:
+            subdivisiones, cuadros de construcción, coordenadas y láminas
+            vinculadas al proyecto.
+          </p>
+          <div class="actions">
+            <a class="button primary download-link" href="#">
+              Descargar instalador beta
+            </a>
+            <a class="button secondary request-link" href="#">
+              Solicitar licencia temporal
+            </a>
+          </div>
+          <div class="facts">
+            <span>0.26.0 beta</span>
+            <span>Windows 64 bits</span>
+            <span>AutoCAD 2020.1.3</span>
+          </div>
+        </div>
+        <div class="technical-card" aria-label="Representación técnica">
+          <div class="card-bar"><i></i><i></i><i></i> DOMUM · SUBDIVISIÓN</div>
+          <svg viewBox="0 0 680 460" role="img" aria-label="Polígono subdividido">
+            <defs>
+              <pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse">
+                <path d="M28 0H0V28" />
+              </pattern>
+            </defs>
+            <rect width="680" height="460" fill="url(#g)" />
+            <path class="boundary" d="M100 90 544 74 584 344 124 380Z" />
+            <path class="cuts" d="m246 85 20 284m145-289 22 277" />
+            <g>
+              <circle cx="100" cy="90" r="6" />
+              <circle cx="544" cy="74" r="6" />
+              <circle cx="584" cy="344" r="6" />
+              <circle cx="124" cy="380" r="6" />
+            </g>
+            <text x="170" y="226">F1</text>
+            <text x="325" y="220">F2</text>
+            <text x="480" y="214">F3</text>
+            <text class="road" x="270" y="414">VÍA PÚBLICA</text>
+          </svg>
+        </div>
+      </section>
+      <section class="trust">
+        <article><b>Paquetes firmados</b><span>Rechaza archivos alterados.</span></article>
+        <article><b>Actualización automática</b><span>Consulta el canal oficial.</span></article>
+        <article><b>Licencia temporal</b><span>Vinculada a cada equipo.</span></article>
+      </section>
+      <section class="section" id="capacidades">
+        <p class="kicker">UN FLUJO CONECTADO</p>
+        <h2>Menos captura repetida.<br />Más control técnico.</h2>
+        <div class="grid">
+          <article>
+            <small>TOPOGRAFÍA</small>
+            <h3>Predios listos para impresión</h3>
+            <p>Vértices persistentes, colindancias, retícula UTM y cuadros editables.</p>
+          </article>
+          <article>
+            <small>URBANISMO</small>
+            <h3>Subdivisiones verificables</h3>
+            <p>Propuestas automáticas o manuales, servidumbres y planos individuales.</p>
+          </article>
+          <article>
+            <small>PUBLICACIÓN</small>
+            <h3>Escalas consistentes</h3>
+            <p>Textos, cotas y tablas recalculados para conservar legibilidad.</p>
+          </article>
+        </div>
+      </section>
+      <section class="section install" id="instalacion">
+        <div>
+          <p class="kicker">INSTALACIÓN GUIADA</p>
+          <h2>Lista para probar en minutos.</h2>
+          <p>
+            El paquete público contiene sólo los binarios necesarios. Las
+            claves privadas y el código comercial permanecen fuera del
+            repositorio.
+          </p>
+          <a class="button primary download-link" href="#">Descargar DOMUM Tools</a>
+        </div>
+        <ol>
+          <li><b>01</b><span><strong>Cierra AutoCAD</strong>Descomprime el instalador.</span></li>
+          <li><b>02</b><span><strong>Ejecuta INSTALAR-DOMUM</strong>El asistente valida y copia el paquete.</span></li>
+          <li><b>03</b><span><strong>Usa DOMUMLICENCIA</strong>Copia el código anónimo del equipo.</span></li>
+          <li><b>04</b><span><strong>Solicita acceso</strong>Erick asigna la licencia temporal.</span></li>
+        </ol>
+      </section>
+    </main>
+    <footer>
+      <span>DOMUM TOOLS</span>
+      <p>Software creado por <b>ARQ. ERICK GARCÉS GRAJALES</b></p>
+      <small>Beta para AutoCAD 2020</small>
+    </footer>
+    <script>
+      (() => {
+        const hostParts = location.hostname.split(".");
+        const owner = hostParts[0];
+        const repo = location.pathname.split("/").filter(Boolean)[0] || "domum-tools-beta";
+        const repository = `https://github.com/${owner}/${repo}`;
+        const download = `${repository}/releases/latest/download/DOMUMTools-Beta-Setup.zip`;
+        const request = `${repository}/issues/new?template=beta-license.yml`;
+        document.querySelectorAll(".download-link").forEach((link) => (link.href = download));
+        document.querySelectorAll(".request-link").forEach((link) => (link.href = request));
+        document.querySelectorAll(".repo-link").forEach((link) => (link.href = repository));
+      })();
+    </script>
+  </body>
+</html>

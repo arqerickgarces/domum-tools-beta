@@ -1,0 +1,39 @@
+name: Solicitar licencia beta
+description: Solicita una autorización temporal para un equipo de pruebas.
+title: "[LICENCIA BETA] "
+labels:
+  - licencia-beta
+body:
+  - type: markdown
+    attributes:
+      value: |
+        El código del equipo es una huella anónima y la solicitud será visible públicamente. No escribas correo, teléfono, dirección, datos de clientes ni contraseñas.
+  - type: input
+    id: tester
+    attributes:
+      label: Nombre o alias del probador
+      placeholder: Nombre, despacho o usuario de GitHub
+    validations:
+      required: true
+  - type: input
+    id: machine
+    attributes:
+      label: Código del equipo
+      description: Se obtiene en AutoCAD con el comando DOMUMLICENCIA.
+      placeholder: XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: Qué deseas probar
+      placeholder: Levantamientos, subdivisiones, láminas, importación GNSS…
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Condiciones
+      options:
+        - label: Acepto que es una beta temporal y revisaré sus resultados antes de usarlos.
+          required: true
