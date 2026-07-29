@@ -4,7 +4,8 @@ Canal público oficial de DOMUM Tools para AutoCAD 2020.1.3.
 
 [Descargar la beta](../../releases/latest) ·
 [Solicitar acceso](../../issues/new?template=beta-license.yml) ·
-[Reportar un error](../../issues/new?template=bug-report.yml)
+[Reportar un error](../../issues/new?template=bug-report.yml) ·
+[Proponer una mejora](../../issues/new?template=feature-request.yml)
 
 ## Qué incluye
 
@@ -14,6 +15,7 @@ Canal público oficial de DOMUM Tools para AutoCAD 2020.1.3.
 - Láminas generales e individuales.
 - Importación y exportación de coordenadas GNSS.
 - Publicación y actualización firmada.
+- Centro de errores y sugerencias con vista previa y control de privacidad.
 
 ## Instalación
 

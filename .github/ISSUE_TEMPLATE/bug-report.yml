@@ -24,7 +24,7 @@ body:
     attributes:
       label: Versión DOMUM
       description: Ejecuta DOMUMVERSION en AutoCAD.
-      placeholder: 0.26.0-beta-online
+      placeholder: 0.28.0-beta-feedback
     validations:
       required: true
   - type: textarea
