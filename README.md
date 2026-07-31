@@ -9,6 +9,8 @@ Canal público oficial de DOMUM Tools para AutoCAD 2020.1.3.
 
 ## Qué incluye
 
+- Espacios arquitectónicos vinculados con nombre, código, superficie y
+  perímetro opcional.
 - Preparación topográfica de predios.
 - Cuadros de construcción editables.
 - Subdivisiones automáticas y manuales.
