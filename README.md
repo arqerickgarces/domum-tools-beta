@@ -16,6 +16,7 @@ Canal público oficial de DOMUM Tools para AutoCAD 2020.1.3.
 - Importación y exportación de coordenadas GNSS.
 - Publicación y actualización firmada.
 - Centro de errores y sugerencias con vista previa y control de privacidad.
+- Recuperación local antes de operaciones críticas, sin sobrescribir el DWG.
 
 ## Instalación
 
