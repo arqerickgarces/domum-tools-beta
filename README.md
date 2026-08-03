@@ -1,4 +1,4 @@
-# DOMUM Tools Beta
+# DOMUM Tools 0.32.0 Beta
 
 Canal público oficial de DOMUM Tools para AutoCAD 2020.1.3.
 
@@ -28,7 +28,11 @@ Canal público oficial de DOMUM Tools para AutoCAD 2020.1.3.
 2. Cierra AutoCAD.
 3. Descomprime el archivo y ejecuta `INSTALAR-DOMUM.cmd`.
 4. Abre AutoCAD y ejecuta `DOMUMLICENCIA`.
-5. Copia el código anónimo del equipo y solicita una licencia temporal.
+5. Solicita una licencia temporal, pega la clave recibida y pulsa
+   `Validar ahora`.
+
+El instalador comprueba firma RSA y huella SHA-256, instala únicamente para el
+usuario actual y conserva una licencia existente al actualizar.
 
 ## Requisitos
 
