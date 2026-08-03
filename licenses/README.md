@@ -1,10 +1,9 @@
 # Licencias beta
 
-Los documentos de esta carpeta están firmados y ligados a una huella anónima
-de equipo. Copiar un archivo a otro equipo no concede acceso.
+Desde DOMUM Tools 0.31.0 las licencias ya no se publican como archivos en
+GitHub. La aplicación solicita al servidor una licencia firmada y vinculada al
+código anónimo del equipo.
 
-Para reducir exposición durante la beta, el campo `Customer` debe contener un
-alias o el nombre de usuario de GitHub, no datos personales adicionales.
-
-La clave privada usada para firmar estos documentos no forma parte del
+Copiar el complemento o una licencia local a otro equipo no concede acceso. La
+clave privada de firma y la administración permanecen fuera de este
 repositorio.

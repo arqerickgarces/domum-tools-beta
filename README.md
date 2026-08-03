@@ -19,6 +19,8 @@ Canal público oficial de DOMUM Tools para AutoCAD 2020.1.3.
 - Publicación y actualización firmada.
 - Centro de errores y sugerencias con vista previa y control de privacidad.
 - Recuperación local antes de operaciones críticas, sin sobrescribir el DWG.
+- Activación central vinculada al equipo y revocación remota desde un portal
+  administrativo independiente de AutoCAD.
 
 ## Instalación
 
@@ -38,6 +40,7 @@ Canal público oficial de DOMUM Tools para AutoCAD 2020.1.3.
 
 Las actualizaciones y licencias se firman fuera de este repositorio. DOMUM
 rechaza paquetes alterados, licencias vencidas y licencias asignadas a otro
-equipo. Este repositorio no contiene el código fuente ni claves privadas.
+equipo. La clave privada permanece únicamente en el servidor de licencias;
+este repositorio no contiene el código fuente ni secretos administrativos.
 
 Software creado por **ARQ. ERICK GARCÉS GRAJALES**.
