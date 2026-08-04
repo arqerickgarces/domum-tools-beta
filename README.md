@@ -1,6 +1,6 @@
-# DOMUM Tools 0.32.0 Beta
+# DOMUM Tools 0.33.0 Beta
 
-Canal público oficial de DOMUM Tools para AutoCAD 2020.1.3.
+Canal público oficial de DOMUM Tools para AutoCAD 2020 a 2026.
 
 [Descargar la beta](../../releases/latest) ·
 [Solicitar acceso](../../issues/new?template=beta-license.yml) ·
@@ -34,10 +34,13 @@ Canal público oficial de DOMUM Tools para AutoCAD 2020.1.3.
 El instalador comprueba firma RSA y huella SHA-256, instala únicamente para el
 usuario actual y conserva una licencia existente al actualizar.
 
+Un solo paquete selecciona automáticamente la DLL compatible para AutoCAD
+2020, 2021-2024 o 2025-2026.
+
 ## Requisitos
 
 - Windows de 64 bits.
-- AutoCAD 2020.1.3.
+- AutoCAD 2020, 2021, 2022, 2023, 2024, 2025 o 2026 de 64 bits.
 - Conexión a Internet para obtener actualizaciones y validar la licencia beta.
 
 ## Seguridad
