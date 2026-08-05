@@ -1,4 +1,4 @@
-# DOMUM Tools 0.44.0 Beta
+# DOMUM Tools 0.45.0 Beta
 
 Canal público oficial de DOMUM Tools para AutoCAD 2020 a 2026.
 
